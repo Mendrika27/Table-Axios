@@ -86,7 +86,7 @@ export default function Modal() {
                     </form>
                 </div>
             </div>
-            <button className="add-content" onClick={displayWindow}>Add User</button>
+            <button className="add-content" onClick={displayWindow}>Add</button>
         </>
     )
 }
