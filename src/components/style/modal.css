@@ -1,0 +1,101 @@
+.container1{
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.192);
+    width: 100%;
+}
+
+.container1 .animate{
+    position: relative;
+    margin: auto;
+    width: 35%;
+    height: 85vh;
+    background-color: white;
+    padding: 12px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px 0 black;
+}
+
+.animate #close{
+    float: right;
+    margin-right: 15px;
+    margin-top: 15px;
+    background-color: rgba(13,110,253,255);
+    border-radius: 4px;
+    width: 100px;
+    color: white;
+    border: none;
+    padding: 5px;
+}
+.animate #close:hover{
+    background-color: rgb(6, 6, 77);
+    transition: 0.5s;
+}
+.add-content{
+    float: right;
+    margin-right: 10px;
+    background-color: rgba(13,110,253,255);
+    border-radius: 4px;
+    width: 100px;
+    color: white;
+    border: none;
+    padding: 5px;
+}
+.animate form{
+    margin-top: 7%;
+}
+.animate input{
+    width: 95%;
+    margin: 5px 20px 5px 5px;
+    padding: 1px 5px;
+    border: none;
+    border-bottom: 1px solid rgba(13,110,253,255);
+}
+
+.animate{
+    -webkit-animation: animatezoom;
+    animation: animatezoom 2s linear;
+}
+
+.close {
+    position: absolute;
+    right: 25px;
+    top: 0;
+    color: rgba(13,110,253,255);
+    font-size: 35px;
+    font-weight: bold;
+  }
+@-webkit-keyframes animatezoom {
+    from{
+        -webkit-transform: scale(0);
+    }
+    to{
+        -webkit-transform: scale(1);
+    }
+}
+
+@keyframes animatezoom {
+    from{
+        transform: scale(0);
+    }
+    to{
+        transform: scale(1);
+    }
+}
+
+table{
+    width: 100%;
+    box-shadow: 0 0 10px 0 black;
+}
+
+table th{
+    background-color: rgba(13,110,253,255);
+    padding: 10px;
+    text-align: center;
+    color: white;
+    border: 2px solid grey;
+}
+table td{
+    padding: 10px 0;
+    text-align: center;
+    border: 2px solid grey;
+}
